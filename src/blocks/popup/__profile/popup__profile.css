@@ -1,0 +1,22 @@
+.popup__profile{
+   font-size: 14px;
+   line-height: 17px;
+   width: 100%;
+   min-height: 30px;
+   border: none;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+   background-color: transparent;
+   margin-bottom: 30px;
+}
+
+@media(max-width: 618px){
+   .popup__profile{
+   width: 100%;
+   min-height: 27px;
+   }
+}
+
+
+.popup__profile:invalid {
+	border-bottom: 1px solid #FF0000;
+}

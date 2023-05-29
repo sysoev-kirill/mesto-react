@@ -1,0 +1,19 @@
+.profile__profile-info{
+   display: grid;
+   grid-template-columns: auto;
+   grid-row-gap: 8px;
+   grid-template-areas: 
+"profile__name profile__edit-bnt"
+"profile__description profile__description";
+
+}
+
+@media(max-width: 920px){
+   .profile__profile-info{
+      text-align: center;
+      grid-template-columns: auto 18px;
+      max-width: 282px;
+      margin-bottom: 36px;
+      margin-top: 26px;
+   }
+}

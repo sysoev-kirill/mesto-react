@@ -1,0 +1,26 @@
+.profile__edit-bnt{
+   grid-area: profile__edit-bnt;
+   background-image: url(../../../images/Edit_Button.svg);
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin: auto 10px 10px 10px;
+   border: none;
+   width: 24px;
+   height: 24px;
+   transition: .3s ease;
+   cursor: pointer;
+
+}
+
+@media(max-width: 920px){
+   .profile__edit-bnt{
+      width: 18px;
+      height: 18px;
+      margin: auto 0 7px;
+   }
+}
+
+.profile__edit-bnt:hover{
+   opacity: 0.59;
+}

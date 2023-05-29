@@ -1,0 +1,14 @@
+.popup__error {
+	position: absolute;
+	font-size: 12px;
+   line-height: 15px;
+   color: #FF0000;
+	width: 362px;
+	top: 35px;
+}
+
+@media (max-width: 618px) {
+	.popup__error{
+		width: 238px;
+	}
+}

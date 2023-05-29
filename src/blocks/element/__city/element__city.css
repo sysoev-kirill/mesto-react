@@ -1,0 +1,12 @@
+.element__city{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   margin-left: 21px;
+   max-width: 200px;
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 29px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}

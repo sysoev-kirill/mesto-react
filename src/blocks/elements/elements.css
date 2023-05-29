@@ -1,0 +1,15 @@
+.elements{
+   max-width: 880px;
+   margin: auto;
+   padding: 0 19px 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   gap: 17px;
+}
+
+@media(max-width: 920px){
+   .elements{
+      justify-content: center;
+   }
+   }

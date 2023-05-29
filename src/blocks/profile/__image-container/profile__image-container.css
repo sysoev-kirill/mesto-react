@@ -1,0 +1,11 @@
+.profile__image-container {
+	position: relative;
+	align-self: center;
+	margin-right: 30px;
+}
+
+@media (max-width: 920px) {
+	.profile__image-container {
+		margin: 0px;
+	}
+}
